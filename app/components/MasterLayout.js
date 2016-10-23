@@ -6,7 +6,7 @@ class MasterLayout extends Component {
         return (
             <div>
                 <nav className="navbar navbar-fixed-top navbar-dark bg-inverse">
-                    <Link className="navbar-brand" to="/">Shopping Cart example</Link>                    
+                    <Link className="navbar-brand" to="/">React Redux Shopping Cart example</Link>                    
                     <ul className="nav navbar-nav pull-xs-right">
                         <li className="nav-item">
                             <Link to="/" className="nav-link">Products</Link>
@@ -19,7 +19,7 @@ class MasterLayout extends Component {
                         </li>
                     </ul>
                 </nav>
-                <div className="container-fluid">
+                <div className="container">
                     { this.props.children }
                 </div>
             </div>
