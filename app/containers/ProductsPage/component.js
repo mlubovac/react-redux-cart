@@ -9,8 +9,7 @@ class ProductsPage extends Component {
 
     render() {
         return (
-            <div>
-                <h1>Products Page</h1>
+            <div className="row">
                 { this.props.products.map(product => <ProductCard key={product.guid} {...product} />) }
             </div>
         );
