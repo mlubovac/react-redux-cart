@@ -2,7 +2,9 @@ import { connect } from 'react-redux';
 import CartPage from './component';
 
 const mapStateToProps = (state, ownProps) => {
-    return {};
+    return {
+        cartItems: state.cart
+    };
 };
 
 const mapDispatchToProps = (dispatch) => {
