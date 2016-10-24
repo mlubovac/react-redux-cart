@@ -15,6 +15,9 @@ class MasterLayout extends Component {
                             <Link to="cart" className="nav-link" activeClassName={"active"}>Cart</Link>
                         </li>
                         <li className="nav-item">
+                            <Link to="checkout" className="nav-link" activeClassName={"active"}>Check Out</Link>
+                        </li>                        
+                        <li className="nav-item">
                             <Link to="about" className="nav-link" activeClassName={"active"}>About</Link>
                         </li>
                     </ul>
