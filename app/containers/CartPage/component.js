@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CartTableRow from './CartTableRow';
-import OrderTotal from './OrderTotal';
+import OrderTotal from './../../components/OrderTotal';
 
 class CartPage extends Component {
     render() {
